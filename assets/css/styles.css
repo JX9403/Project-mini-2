@@ -641,6 +641,17 @@
   margin-bottom: 30px;
 }
 
+input, textarea:focus{
+  outline:0;
+}
+input:focus{
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+textarea:focus{
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+
 .section-10 .button {
   border: none;
   cursor: pointer;
