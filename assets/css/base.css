@@ -1,0 +1,26 @@
+:root{
+    --color-1 : #FF5A9F;
+    --color-2 : #8261EE;
+    --font :  'Raleway', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    
+  }
+
+  
+  body {
+    font-family: var(--font);
+    background-color: #f9f9f9;
+    position: relative;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  ul{
+    list-style-type: none;
+  }
